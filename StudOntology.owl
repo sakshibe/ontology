@@ -6,9 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-16">
-        <owl:imports rdf:resource="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-8"/>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-16"/>
     
 
 
@@ -29,6 +27,40 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-8#Course"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-8#Teacher"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-16#teaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-16#teaches">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-8#Teacher"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-8#Course"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-8#Course -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-8#Course">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-8#Teacher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-8#Teacher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-8#Teacher"/>
 </rdf:RDF>
 
 
