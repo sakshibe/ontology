@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#"
+     xml:base="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23">
+        <owl:imports rdf:resource="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-20"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Age -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Age"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Education_Level -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Education_Level"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Empoyment_Status -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Empoyment_Status"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Ethnicity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Ethnicity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Facebook -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Facebook"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Gender -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Gender"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Household_size -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Household_size"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Instagram -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Instagram"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#LGBTQ -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#LGBTQ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Line -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Line"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#LinkedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#LinkedIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Max_Income_Monthly -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Max_Income_Monthly"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Member_Organization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Member_Organization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Min_Income_Monthly -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Min_Income_Monthly"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#My_own_blog -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#My_own_blog"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Organization_None -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Organization_None"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Origin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Origin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Pinterest -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Pinterest"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Political_View -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Political_View"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Political_party -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Political_party"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Reddit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Reddit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Religion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Religion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Religious_Institution -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Religious_Institution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Residency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Residency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Snapchat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Snapchat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Social_media_None -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Social_media_None"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Sports_club -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Sports_club"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Twitter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Twitter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Urbanisation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Urbanisation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Viber -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Viber"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#WeChat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#WeChat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#WhatsApp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#WhatsApp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#YouTube -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#YouTube"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Google+ -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#Google+"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-20#VotedFor -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/9/untitled-ontology-20#VotedFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sakshi/ontologies/2017/10/untitled-ontology-23#User"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
